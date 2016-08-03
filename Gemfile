@@ -7,7 +7,7 @@ gem 'rails', '4.2.2'
 gem 'bcrypt', '3.1.9'
 #gem 'bootstrap-sass', '3.2.0.0'
 
-gem 'faker',          '1.6.3'
+gem 'faker', '1.4.2'
 gem 'carrierwave',             '0.11.2'
 gem 'mini_magick',             '4.5.1'
 gem 'fog',                     '1.38.0'
