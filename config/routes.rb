@@ -23,6 +23,8 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :account_activation, only: [:edit]
+
   resources :microposts,          only: [:create, :destroy]
 
   resources :relationships,       only: [:create, :destroy]

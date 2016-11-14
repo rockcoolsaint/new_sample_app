@@ -1,6 +1,6 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-	<aside class="col-md-4"
+	<aside class="col-md-4">
 		<section>
 			<h1>
 				<%= gravatar_for @user %>
@@ -20,5 +20,5 @@
 	      </ol>
 	      <%= will_paginate @microposts %>
 	    <% end %>
-	  </div>
+	</div>
 </div>
